@@ -1,0 +1,6 @@
+{
+  "name": "Hut Qattara Restaurant",
+  "description": "Official website for Hut Qattara Restaurant in Al Qattara, Al Ain, UAE with interactive menu, online table reservations, location map, and direct contact.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

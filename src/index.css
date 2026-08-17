@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0c0a09;
+    color: #f5f5f4;
+  }
+  
+  html[dir="rtl"] {
+    font-family: 'Cairo', sans-serif;
+  }
+}
+
+.font-display, .font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-arabic {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Custom scrollbar matching dark luxury theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0a09;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Glow orb helpers */
+.ambient-glow-amber {
+  background: radial-gradient(circle, rgba(217, 119, 6, 0.18) 0%, rgba(120, 53, 15, 0.08) 50%, rgba(12, 10, 9, 0) 70%);
+}
+
+.ambient-glow-deep {
+  background: radial-gradient(circle, rgba(120, 53, 15, 0.25) 0%, rgba(69, 26, 3, 0.12) 60%, rgba(12, 10, 9, 0) 80%);
+}
+
+/* Arch Card Style */
+.arch-card {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
